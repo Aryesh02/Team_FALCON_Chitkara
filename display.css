@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+/* Navigation bar design */
+.flex-background{
+    background-image: linear-gradient(to right ,#FCA5F1 , #6B5FFF);
+    border-radius: 10px;
+}
+.container{
+    margin-left: 20px;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+div a{
+    color:antiquewhite;
+    text-decoration: none;
+}
+div a:hover{
+    color: blue;
+    transition: 1s;
+}
+.navigations{
+    flex-basis: 33%;
+    padding-bottom: 10px;
+}
+
+/* Button design */
+.btn{
+    background-color: rgb(45, 140, 218);
+    color: white;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    position: absolute;
+    left: 35%;
+}
+
+.firebase{
+    display: flex;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 20px;
+    background-color: #f3ff71;
+    color: #0ba325;
+}
+
+.f{
+    flex-basis: 25%;
+}
+
+@media (max-width : 800px)
+{
+    .firebase{
+        flex-direction: column;
+    }
+    .btn{
+        width: 200px;
+    height: 20px;
+    font-size: 10px;
+    }
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        font-size: 25px;
+    }
+}

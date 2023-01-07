@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="display.css">
+    <link rel="shortcut icon" href="fine-air.jpeg" type="image/jpeg">
+    <title>FINE AIR|USER|E-CHALLAN</title>
+</head>
+<body>
+    <div class="flex-background">
+        <div class="container">
+            
+            <div class="navigations">
+                <a href="home.html">Home</a>
+        </div>
+        <div class="navigations">
+          <a href="userl.html">User Login</a>
+        </div>
+        <!-- <div class="navigations">
+            <a href="xyz.html">Company Login</a>
+        </div> -->
+        <div class="navigations">
+          <a href="xyz.html">Contact us</a>
+        </div>
+       </div>
+    </div> <br>
+    <div class="firebase">
+        <div class="f">Name
+            <div id="div1"></div>
+        </div>
+        <div class="f">Vehicle No:
+
+            <div id="div2"></div>
+        </div>
+        <div class="f">Amount
+
+            <div  id="div3"></div>
+        </div>
+        <div class="f">Payment Status
+
+            <div  id="div4"></div>
+        </div>
+    </div>
+    <br> <br>
+    <a href="https://buy.stripe.com/test_aEU5lLgSQcUq5fG5km">
+        <button type="submit" class="btn" id="btn">PAY NOW</button>
+    </a>
+</body>
+</html>
+<script type= "module"  src="display.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-auth-compat.js"></script>

@@ -1,0 +1,69 @@
+body, ul, li, h1, h2, a{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+img{
+    position: absolute;
+    height: 170px;
+    width: 235px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.layout{
+    background-image: url(fine-air-high-resolution-color-logo.png);
+    background-size: cover;
+    max-width: 100%;
+    height: 720px;
+    display: flex;
+    flex-direction: column;   
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+.welcome, .login{
+    margin-right: 20%;
+    margin-bottom: 50px;
+}
+.welcome{
+    display: inline-block;
+    background-color: #0a653153;
+    border: 5px solid #00ad6a;
+    border-radius: 20%;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.welcome h2{
+    font-size: 30px;
+    padding: 30px;
+}
+.welcome span{
+    font-size: 45px;
+}
+/* .login{
+    
+} */
+.login a{
+    text-decoration: none;
+    background-color: #0a653153;
+    color: white;
+    border : 4px solid #00ad6a;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    margin-right: 80px;
+}
+@media screen and (max-width: 800px){
+    .welcome h2{
+        font-size: 20px;
+        padding: 20px;
+    }
+    .welcome span{
+        font-size: 30px;
+    }
+    .login a{
+        font-size: 15px;
+        margin-right: 55px;
+    }
+}
